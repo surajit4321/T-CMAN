@@ -1,0 +1,6 @@
+configuration,delta_pts_vs_full,welch_p,holm_p
+no_sync,4.29,0.2364,1.0000
+no_adv,1.32,0.7244,1.0000
+no_crossmodal,1.77,0.5761,1.0000
+no_temporal,3.19,0.4516,1.0000
+sync_strong,-1.08,0.7610,1.0000

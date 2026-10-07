@@ -1,0 +1,26 @@
+{
+ "LAV-DF": {
+  "train": {
+   "real": 27324,
+   "fake": 74949,
+   "total": 102273
+  },
+  "val": {
+   "real": 3643,
+   "fake": 9853,
+   "total": 13496
+  },
+  "test": {
+   "real": 5464,
+   "fake": 15071,
+   "total": 20535
+  }
+ },
+ "FakeAVCeleb": {
+  "all (held out)": {
+   "real": 475,
+   "fake": 21085,
+   "total": 21560
+  }
+ }
+}

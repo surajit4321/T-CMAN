@@ -1,0 +1,130 @@
+{
+ "description": "Cross-dataset AUC (train: LAV-DF, test: all of FakeAVCeleb) per configuration and seed, and within-dataset (LAV-DF test) AUC. Produced by notebooks/04 with explicit per-run seeds. Within-dataset AUC for the ablations is available for seeds 0-2 only (see paper, Section 8).",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "cross_dataset_auc": {
+  "full": [
+   0.5952,
+   0.7135,
+   0.5859,
+   0.6405,
+   0.7168
+  ],
+  "no_sync": [
+   0.6882,
+   0.6927,
+   0.7487,
+   0.639,
+   0.6978
+  ],
+  "no_adv": [
+   0.6591,
+   0.7162,
+   0.6571,
+   0.7008,
+   0.5848
+  ],
+  "no_crossmodal": [
+   0.6911,
+   0.6555,
+   0.6695,
+   0.6836,
+   0.6405
+  ],
+  "no_temporal": [
+   0.7415,
+   0.7192,
+   0.6416,
+   0.7211,
+   0.5882
+  ],
+  "sync_strong": [
+   0.6686,
+   0.5715,
+   0.6853,
+   0.6269,
+   0.6455
+  ]
+ },
+ "within_dataset_auc_seeds_0_2": {
+  "full": [
+   0.999,
+   0.9985,
+   0.9991
+  ],
+  "no_sync": [
+   0.9995,
+   0.9996,
+   0.9995
+  ],
+  "no_adv": [
+   0.9992,
+   0.9988,
+   0.999
+  ],
+  "no_crossmodal": [
+   0.9994,
+   0.9988,
+   0.9993
+  ],
+  "no_temporal": [
+   0.9984,
+   0.9979,
+   0.9969
+  ],
+  "sync_strong": [
+   0.9992,
+   0.9981,
+   0.9988
+  ]
+ },
+ "full_model_within_dataset_metrics_seeds_0_4": {
+  "auc": [
+   0.999,
+   0.9985,
+   0.9991,
+   0.9992,
+   0.9991
+  ],
+  "f1": [
+   0.9951,
+   0.9933,
+   0.993,
+   0.9955,
+   0.9921
+  ],
+  "recall": [
+   0.9947,
+   0.9961,
+   0.996,
+   0.9953,
+   0.9949
+  ],
+  "precision": [
+   0.9954,
+   0.9906,
+   0.99,
+   0.9957,
+   0.9894
+  ],
+  "accuracy": [
+   0.9927,
+   0.9902,
+   0.9897,
+   0.9934,
+   0.9884
+  ],
+  "eer": [
+   0.0075,
+   0.0108,
+   0.0073,
+   0.0068,
+   0.0092
+  ]
+ }
+}
