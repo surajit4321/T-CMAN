@@ -1,8 +1,0 @@
-# Configurations compared in the paper (overrides of config.yaml). Five seeds each: 0, 1, 2, 3, 4.
-full:          {}
-no_sync:       {lambda_sync: 0.0}
-no_adv:        {lambda_adv: 0.0}
-no_crossmodal: {use_crossmodal: false}   # cross-attention replaced by concatenation + same projection
-no_temporal:   {use_temporal: false}     # GRU removed; input projection kept
-sync_strong:   {lambda_sync: 1.0}
-# lambda_sync = 0.1 was run once during development and is not part of the replicated analysis.
